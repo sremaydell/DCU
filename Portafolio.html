@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Universitario</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<div>
+    <header>
+        <h1>Universidad SMK</h1>
+    </header>
+    <nav>
+        <ul>
+          
+            <li><a href="Conctato.html">Contacto</a></li> 
+            <li><a href="Index.html">Formulario</a></li>
+        </ul>
+    </nav>
+    
+    <div class="contenido">
+       
+        <div class="texto">
+                        <h3">Bienvenidos a la Universidad SMK</h3>
+
+               <p>Es el lugar donde las mentes curiosas y 
+                apasionadas por la tecnología se unen para dar forma al futuro! En nuestra prestigiosa Escuela de Tecnología,
+                estamos comprometidos con la excelencia académica y la innovación. Aquí, los estudiantes no solo adquieren conocimientos
+                teóricos, sino que también se sumergen en experiencias prácticas que los preparan para los desafíos del mundo digital en 
+                constante evolución. Nuestra facultad de expertos, las instalaciones de vanguardia y un entorno de aprendizaje enriquecedor 
+                fomentan la creatividad y la colaboración. Si estás listo para explorar nuevas fronteras tecnológicas y forjar tu camino hacia
+                el éxito, te damos la bienvenida a SMK, donde el futuro se construye en cada línea de código, en cada circuito y en cada 
+                innovación.</p>
+             
+                <div class="imagen">
+                    <img src="https://th.bing.com/th/id/OIP.XKHp1uYCgvTtGgeNN9UJXgHaEK?pid=ImgDet&rs=1" alt="Imagen de ejemplo">
+                  </div>
+        
+        </div>
+    </div>
+    <table>
+        <tr>
+          <th>Carrera</th>
+          <th>Descripción</th>
+        </tr>
+        <tr>
+          <td><a href="Appsportafolio\carrera_informatica.html">Informática</a></td>
+          <td>Carrera enfocada en el desarrollo de software y sistemas informáticos.</td>
+        </tr>
+        <tr>
+          <td><a href="Appsportafolio\carrera_diseno.html">Diseño Digital</a></td>
+          <td>Carrera para aprender diseño gráfico y diseño de experiencias de usuario.</td>
+        </tr>
+        <tr>
+          <td><a href="Appsportafolio\carrera_ingenieria.html">Ingeniería Electrónica</a></td>
+          <td>Carrera que abarca el diseño y desarrollo de sistemas electrónicos.</td>
+        </tr>
+      </table>
+    </section>
+    
+    <section id="galeria" class="container">
+      <div class="text-center pt-5">
+        <h2>Imágenes Relacionadas</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <img src="img/descargar (1).jpg" | alt="Galeria Imagen">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <img src="img/descargar (2).jpg" | alt="Galeria Imagen">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <img src="img/descargar (3).jpg" | alt="Galeria Imagen">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <img src="img/descarga(03).jpg" | alt="Galeria Imagen">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <img src="img/descargar (4).jpg" | alt="Galeria Imagen">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <img src="img\descargar (5).jpg" | alt="Galeria Imagen">
+        </div>
+    </section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+crossorigin="anonymous"></script>
+<script>
+  document.addEventListener("click", function(e){
+  if(e.target.classList.contains("gallery-item")){
+    const src = e.target.getAttribute("src");
+ document.querySelector("modal-img").src = src;
+const myModal = new bootstrap.Modal(document.getElementById('gallery-modal'));
+myModal.show();
+
+
+  }
+})
+  </script>
+    <footer>
+        <p id="footer"> &copy; 2023 Portafolio Universitario. Todos los derechos reservados.  Sremaydell Grimote</p>
+    </footer>
+</body>
+</html>

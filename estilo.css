@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(45deg, #b83e93, #5f8ccf);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+section {
+    padding: 2rem;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label, form input, form textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+form button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    
+}
+
+
+  .imagen {
+    
+        max-width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        
+  }
+
+ 
+  
+
+  .texto {
+    flex: 2;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .contenido {
+    
+    align-items: center;
+    
+    margin: 0 auto;
+    
+  }
+  .contenido{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+ 
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 1px solid #333;
+  }
+
+  th, td {
+    border: 1px solid #333;
+    padding: 10px;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  #galeria .col-lg-4 {
+    margin: 0 !important;
+    padding: 25px;
+  }
+  
+  #galeria img {
+    width: 100%;
+    height: 250px;
+    padding: 25px;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0, 3);
+    cursor: pointer;
+  
+  
+  }
+  
+  #galeria img:hover {
+    border: 5px solid #f7f7f7;
+  
+  
+  }
