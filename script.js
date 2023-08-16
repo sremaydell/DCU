@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     registroForm.addEventListener("submit", function (event) {
         event.preventDefault();
-        const ID = document.getElementById("id").value;
+        const id = document.getElementById("id").value;
         const nombre = document.getElementById("nombre").value;
         const correo = document.getElementById("correo").value;
         const telefono = document.getElementById("telefono").value;
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
           
             if (personas.length === 0) {
               const mensaje = document.createElement("li");
-              mensaje.textContent = "No hay personas registradas con ese nombre.";
+              mensaje.textContent = "No hay personas registradas .";
               listaPersonas.appendChild(mensaje);
               return;
             }
